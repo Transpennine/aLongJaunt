@@ -115,10 +115,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BasicClass.cpp" />
+    <ClCompile Include="CharacterClass.cpp" />
+    <ClCompile Include="EnemyClass.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Messages.cpp" />
+    <ClCompile Include="Messages.h" />
+    <ClCompile Include="WeaponClass.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="characterClass.h" />
+    <ClInclude Include="BasicClass.h" />
+    <ClInclude Include="CharacterClass.h" />
+    <ClInclude Include="EnemyClass.h" />
+    <ClInclude Include="WeaponClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
